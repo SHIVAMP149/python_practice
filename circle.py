@@ -6,8 +6,9 @@ class circle():
     def perimeter(self):
         return 2*3.14*self.radius
 a = int(input("Enter the radius of the circle: "))
-obj = circle(a)
-print("Area of circle: ",obj.area())
-print("perimeter of circle: ",obj.perimeter())
+ar = circle(a)
+pr = circle(a)
+print("Area of circle: ",ar.area())
+print("perimeter of circle: ",pr.perimeter())
 
 print()
